@@ -1,0 +1,32 @@
+#gallery { 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project { 
+    /* height: 250px; 
+    width: 350px; 
+    padding: 20px;
+    margin: 20px; */
+    position: relative;
+}
+
+.projlabel {
+    color: white;
+    background-color: #4aaaa5; 
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+    padding: 20px;
+    height: 30px; 
+    width: 100%;
+    position: relative;
+    bottom: 100px; 
+    text-align: center;
+}
+
+
+ img {   
+    height: 250px;
+    width: 350px; 
+    margin: 0px ; 
