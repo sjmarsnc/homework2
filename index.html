@@ -9,72 +9,84 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/common.css">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-    <title>Portfolio</title>
+    <title>About</title>
 </head>
 
 <body class="d-flex flex-column h-100">
 
     <!-- <div class="container"> -->
     <!-- header row -->
-    <nav class="navbar navbar-expand-md">
-        <div class="navbar-brand" id="tab">
-            Susan Marshall
-        </div>
+    <div id="headerarea">
 
-        <div class="collapse navbar-collapse justify-content-end" id="main-navigation">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href=contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-sm" id="headercontent">
+            <div class="navbar-brand" id="tab">
+                Susan Marshall
+            </div>
 
-    </nav>
+            <div class="collapse navbar-collapse justify-content-end" id="main-navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </div>
 
     <!-- main content area -->
-    <div class="row">
+    <div class="card" id="backwall">
+        <img src="assets/images/light-grey-terrazzo.png" class="card-img" alt="main content">
+        <!-- <div class="card"> -->
 
-        <div class="col" width="100%" height="100%">
-            <div class="card" id="content">
-                <img src="../images/light-grey-terrazzo.png" class="card-img" alt="main content">
-                <div class="card-img-overlay">
-                    <h2 class="card-title">
-                        About Me
-                    </h2>
-                </div>
-                <div class="card-text">
-                    <img src="assets/images/SusanMarshall.jpg" style="float: left;">
-                    <p>
-                        Welcome to my page! I'm Susan Marshall and I'm a full-stack web developer.
-                        This site showcases some of my work and what I can do for you.
-                    </p>
-                    <p>
-                        I graduated from Boston University with a Bachelor's Degree in Mathematics and computer
-                        Science, and spent nearly 30 years programming and doing technical support for SAS
-                        Institute. I enjoyed making web pages to share knowledge across our international
-                        offices and now I focus solely on web design.
-                    </p>
-                    <p>
-                        When I'm not communing with my computer, I hang out with my cats (at their
-                        whim, not mine), knit (preferably without the cats), hike, and bike on the
-                        many gorgeous Raleigh greenway trails. I also like to travel - currently at
-                        65 countries and counting!
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eveniet asperiores, voluptatum ipsa
-                        perferendis vitae impedit quidem ex, alias sint porro quia adipisci earum eum inventore quasi
-                        possimus doloremque deserunt.
-                    </p>
+            <!-- <div class="col" width="100%" height="100%"> -->
+                <div class="card" id="content">
+                    
+                    <div class="card-body">
+                        <h2 class="card-title">
+                            About Me
+                        </h2>
+                        <!-- </div> -->
+                        <div class="card-text">
+                            <img src="assets/images/SusanMarshall.jpg" class="float-left">
+                            <div class="float-right">
+                                <p>
+                                    Welcome to my page! I'm Susan Marshall and I'm a full-stack web developer.
+                                    This site showcases some of my work and what I can do for you.
+                                </p>
+                                <p>
+                                    I graduated from Boston University with a Bachelor's Degree in Mathematics and computer
+                                    Science, and spent nearly 30 years programming and doing technical support for SAS
+                                    Institute. I enjoyed making web pages to share knowledge across our international
+                                    offices and now I focus solely on web design.
+                                </p>
+                                <p>
+                                    When I'm not communing with my computer, I hang out with my cats (at their
+                                    whim, not mine), knit (preferably without the cats), hike, and bike on the
+                                    many gorgeous Raleigh greenway trails. I also like to travel - currently at
+                                    65 countries and counting!
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eveniet asperiores,
+                                    voluptatum
+                                    ipsa
+                                    perferendis vitae impedit quidem ex, alias sint porro quia adipisci earum eum inventore
+                                    quasi
+                                    possimus doloremque deserunt.
+                                </p>
+                            </div>
 
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
+        <!-- </div> -->
     </div>
 
     <!--div class="row" width="100%" -->
