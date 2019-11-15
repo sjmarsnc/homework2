@@ -83,12 +83,7 @@ footer {
 /* img doesn't float due to reset.css   */
 
 @media screen and (max-width: 767px) {
-    /* The body's bg color will be #333 */
-    #biopic {
-      float: left; 
-      margin: 0px 20px 20px 0px; 
-    }
-
+     
     /* override bootstraps max-width */
     #headerbar {
         max-width: 767px;
@@ -96,15 +91,7 @@ footer {
 
 }
 
-   @media screen and (max-width: 640px) {
-    /* The body's bg color will be #333 */
-    #biopic {
-      width: 100%; 
-      align: 
-    }
-
-
-}
+  
 
 /*
    * Teal color (used for headings and backgrounds): `#4aaaa5`

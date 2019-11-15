@@ -6,5 +6,25 @@ img {
      
 }
 
+/* gap between medium (768px) and 640px */ 
+/* img doesn't float due to reset.css   */
 
+@media screen and (max-width: 767px) {
+    /* The body's bg color will be #333 */
+    #biopic {
+      float: left; 
+      margin: 0px 20px 20px 0px; 
+    }
+
+}
+
+   @media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    #biopic {
+      width: 100%; 
+      align: 
+    }
+
+
+}
 
