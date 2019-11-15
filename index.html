@@ -14,77 +14,78 @@
 
 <body class="d-flex flex-column h-100">
 
-    <!-- <div class="container"> -->
-    <!-- header row -->
+    <!-- headerarea - entire screen width, background and border defined in css, if used  -->
+    <!-- w-100 class it lost other settings -->
+
     <div id="headerarea">
-        <!-- try this as a row and set the pieces to 12 columns at a certain size, need outer container -->
-        <nav class="navbar navbar-expand-sm p-0 d-flex" id="headercontent">
-            <div class="navbar-brand ml-5 align-self-left" id="tab">
-                Susan Marshall
-            </div>
 
-            <div class="justify-content-end mr-5 align-self-right" id="main-navigation">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="container">
+             
+            <div class="row justify-content-between">
+                <!-- justify-content-center did not center text so have text-align in css -->
+                <div class="col col-md-4 col-12 align-self-left justify-content-center p-3" id="tab">
+                    Susan Marshall
+                </div>
 
-        </nav>
+                <nav class="navbar navbar-expand col col-md-3 col-12 justify-content-center" id="main-navigation">   
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+    </div>
 
     </div>
 
     <!-- main content area -->
+    <!-- not using backwall for anything - was originally the area with the wall paper -->
+    <!-- but that's now assigned to the body and overlaid with the header and footer -->
     <div class="container m-auto p-0 w-100 h-100" id="backwall">
-        <!-- <img src="assets/images/light-grey-terrazzo.png" class="w-100 h-100" alt="main content"> -->
-        <!-- <div class="card"> -->
 
-            <!-- <div class="col" width="100%" height="100%"> -->
-                <div class="card w-100 m-0" id="content">
+        <!-- setting max-width and top position in css -->
+        <div class="card w-100 m-0 p-3" id="content">
+
+            <div class="card-body">
+                <!-- border, color and font set in css -->
+                <h2 class="card-title">
+                    About Me
+                </h2>
+              
+                <div class="card-content">
                     
-                    <div class="card-body">
-                        <h2 class="card-title">
-                            About Me
-                        </h2>
-                        <!-- </div> -->
-                        <div class="card-text">
-                            <img src="assets/images/SusanMarshall.jpg" class="float-md-left mr-md-3 mb-md-3">
-    
-                                <p>
-                                    Welcome to my page! I'm Susan Marshall and I'm a full-stack web developer.
-                                    This site showcases some of my work and what I can do for you.
-                                </p>
-                                <p>
-                                    I graduated from Boston University with a Bachelor's Degree in Mathematics and computer
-                                    Science, and spent nearly 30 years programming and doing technical support for SAS
-                                    Institute. I enjoyed making web pages to share knowledge across our international
-                                    offices and now I focus solely on web design.
-                                </p>
-                                <p>
-                                    When I'm not communing with my computer, I hang out with my cats (at their
-                                    whim, not mine), knit (preferably without the cats' "help"), hike, and bike on the
-                                    many gorgeous Raleigh greenway trails. I also like to travel - currently at
-                                    65 countries and counting!
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eveniet asperiores,
-                                    voluptatum
-                                    ipsa
-                                    perferendis vitae impedit quidem ex, alias sint porro quia adipisci earum eum inventore
-                                    quasi
-                                    possimus doloremque deserunt.
-                                </p>
+                    <img src="assets/images/SusanMarshall.jpg" class="float-md-left mr-md-3 mb-md-3" id="biopic">
 
-                        </div>
-                    </div>
+                    <p>
+                        Welcome to my page! I'm Susan Marshall and I'm a full-stack web developer.
+                        This site showcases some of my work and what I can do for you.
+                    </p>
+                    <p>
+                        I graduated from Boston University with a Bachelor's Degree in Mathematics and computer
+                        Science, and spent nearly 30 years programming and doing technical support for SAS
+                        Institute. I enjoyed making web pages to share knowledge across our international
+                        offices and now I focus solely on web design.
+                    </p>
+                    <p>
+                        When I'm not communing with my computer, I hang out with my cats (at their
+                        whim, not mine), knit (preferably without the cats' "help"), hike, and bike on the
+                        many gorgeous Raleigh greenway trails. I also like to travel - currently at
+                        65 countries and counting!
+                    </p>
+
                 </div>
+            </div>
+        </div>
         <!-- </div> -->
     </div>
 
