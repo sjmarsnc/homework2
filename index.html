@@ -17,13 +17,13 @@
     <!-- <div class="container"> -->
     <!-- header row -->
     <div id="headerarea">
-
-        <nav class="navbar navbar-expand-sm p-0" id="headercontent">
-            <div class="navbar-brand " id="tab">
+        <!-- try this as a row and set the pieces to 12 columns at a certain size, need outer container -->
+        <nav class="navbar navbar-expand-sm p-0 d-flex" id="headercontent">
+            <div class="navbar-brand ml-5 align-self-left" id="tab">
                 Susan Marshall
             </div>
 
-            <div class="collapse navbar-collapse justify-content-end" id="main-navigation">
+            <div class="justify-content-end mr-5 align-self-right" id="main-navigation">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">About</a>
@@ -42,12 +42,12 @@
     </div>
 
     <!-- main content area -->
-    <div class="section" id="backwall">
-        <img src="assets/images/light-grey-terrazzo.png" class="card-img" alt="main content">
+    <div class="container m-auto p-0 w-100 h-100" id="backwall">
+        <!-- <img src="assets/images/light-grey-terrazzo.png" class="w-100 h-100" alt="main content"> -->
         <!-- <div class="card"> -->
 
             <!-- <div class="col" width="100%" height="100%"> -->
-                <div class="card" id="content">
+                <div class="card w-100 m-0" id="content">
                     
                     <div class="card-body">
                         <h2 class="card-title">
@@ -55,8 +55,8 @@
                         </h2>
                         <!-- </div> -->
                         <div class="card-text">
-                            <img src="assets/images/SusanMarshall.jpg" class="float-left">
-                            <div class="float-right">
+                            <img src="assets/images/SusanMarshall.jpg" class="float-md-left mr-md-3 mb-md-3">
+    
                                 <p>
                                     Welcome to my page! I'm Susan Marshall and I'm a full-stack web developer.
                                     This site showcases some of my work and what I can do for you.
@@ -69,7 +69,7 @@
                                 </p>
                                 <p>
                                     When I'm not communing with my computer, I hang out with my cats (at their
-                                    whim, not mine), knit (preferably without the cats), hike, and bike on the
+                                    whim, not mine), knit (preferably without the cats' "help"), hike, and bike on the
                                     many gorgeous Raleigh greenway trails. I also like to travel - currently at
                                     65 countries and counting!
                                 </p>
@@ -81,7 +81,6 @@
                                     quasi
                                     possimus doloremque deserunt.
                                 </p>
-                            </div>
 
                         </div>
                     </div>

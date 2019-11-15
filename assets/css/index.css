@@ -5,7 +5,7 @@
 }
 
 img { 
-    margin: 0px 10px 10px 0px; 
+     
 }
 
  /*
@@ -17,3 +17,20 @@ img {
    * Main content background color: `#ffffff`
    * Main content border color: `#dddddd`
    */
+
+   @media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    img {
+      width: auto; 
+    }
+
+    #tab { 
+        width: 100%; 
+        margin-left: 0!important;
+    }
+
+    #headerarea {
+        height: 20%; 
+    }
+}
+

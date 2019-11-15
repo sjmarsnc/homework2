@@ -1,0 +1,136 @@
+body {
+    color: #777777;
+    width: 1000px; 
+    min-height: 100%;
+    margin-left, margin-right: calc((100% - 1000px) / 2);
+    padding: 20px;
+    font-family: "Arial, Helvetica Neue, Helvetica, sans-serif";
+}
+
+#headerbar {
+    /* height: calc(10% - 3px); */
+    height: 10%; 
+    width: 100%;
+    background-color: white; 
+    border-color: #ccc;
+    border-style: none none solid none; 
+    border-width: 3px; 
+    /* position: fixed; */ 
+    margin: 0;
+    left: 0;
+}
+
+#headercontent {
+    display: flex;
+    justify-content: space-between;
+    width: 920px; 
+    margin: 0 auto; 
+}
+
+
+
+h1 {    font-family: "Georgia, Times, Times New Roman, serif"; 
+    color: white;
+    background-color: #4aaaa5; 
+}
+
+h2 {
+    font-family: "Georgia, Times, Times New Roman, serif"; 
+    color: #4aaaa5;
+    border-color: #ccc;
+    border-style:  none none solid none; 
+    border-width: 3px;
+    padding: 10px 0px; 
+}
+
+#tab {
+    font-family: "Georgia, Times, Times New Roman, serif"; 
+    font-size: 24px;
+    color: white;
+    background-color: #4aaaa5; 
+    align-content: flex-end;
+    width: 30%;
+    padding: 20px 30px; 
+    text-align: center;
+
+}
+
+
+#menu {
+    color: #777;
+    height: 10%;
+    position: fixed;
+    right: 0; 
+    width: 30%; 
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+    font-family: "Arial, Helvetica Neue, Helvetica, sans-serif";
+} 
+
+a:hover {
+    text-decoration: underline;
+}
+    
+
+#gallery { 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project { 
+    height: 300px; 
+    width: 400px; 
+    padding: 20px;
+    border: 1px solid #ddd;
+
+}
+
+img { 
+    margin: 0px 10px 10px 0px; 
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    height: 20px;
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+}
+
+.backwall {
+    background-image: url("../images/greekvase.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: calc(90% - 20px);
+    position: fixed;
+    top: calc(15% + 3px);
+}
+
+
+#content {
+    width: 960px;
+    margin: 0px auto;  
+    padding: 20px;
+    position: fixed; 
+    top: 20%; 
+    background: white; 
+    
+}
+
+   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`

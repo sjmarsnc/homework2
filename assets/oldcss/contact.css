@@ -1,0 +1,21 @@
+.formlabel {
+    font-family: "Arial, Helvetica Neue, Helvetica, sans-serif";
+    font-size: large;
+    line-height: 2;
+}
+
+input, textarea {
+    border: 1px solid #ddd;
+    width: 920px;
+    line-height: 2; 
+}
+
+button {
+    background-color:   #4aaaa5; 
+    color: white;
+    padding: 10px 30px; 
+    border: none; 
+    margin: 20px 0px; 
+    font-size: large; 
+}
+ 
