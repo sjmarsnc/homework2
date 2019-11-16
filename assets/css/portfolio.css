@@ -2,27 +2,27 @@
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0;
 }
 
-.project { 
-    /* height: 250px; 
-    width: 350px; 
-    padding: 20px;
-    margin: 20px; */
+ 
+
+.projLabelBox { 
     position: relative;
-}
-
-.projlabel {
+    padding: 0px;
+    bottom: 50px; 
     color: white;
     background-color: #4aaaa5; 
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 24px;
-    padding: 20px;
-    height: 30px; 
+    font-size: 1.5rem;
+    padding: 0px;
+    height: 3rem; 
     width: 100%;
-    position: relative;
-    bottom: 100px; 
     text-align: center;
+}
+
+.projimage {
+    height: 100%;
 }
 
 
@@ -30,3 +30,4 @@
     height: 250px;
     width: 350px; 
     margin: 0px ; 
+ }
