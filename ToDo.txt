@@ -1,0 +1,17 @@
+Questions for tutor: 
+
+Index: 
+
+   What do do about reboot.css changing .img parameters (see index.html comments) - got this one 
+       but would be nice to ask about best practices  
+
+
+
+Portfolio: 
+
+Portfolio goes to one project per line at about 1000px instead of after 768
+Should scroll down farther? 
+
+
+Contact: 
+
