@@ -1,7 +1,4 @@
 #gallery { 
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-between;
     padding: 0;
 }
 
@@ -23,11 +20,20 @@
 
 .projimage {
     height: 100%;
+    width: 280px;
 }
 
 
- img {   
-    height: 250px;
-    width: 350px; 
-    margin: 0px ; 
- }
+ @media screen and (max-width: 767px) {
+    
+    #galContents {
+      justify-content: center!important; 
+    }
+
+}
+
+   @media screen and (max-width: 640px) {
+    
+  
+
+}
